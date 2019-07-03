@@ -15,8 +15,8 @@
           <ion-item>
             <ion-label position="floating">Select</ion-label>
             <IonSelectVue v-model="user.pet">
-              <ion-select-option value="cats">Cats</ion-select-option>
-              <ion-select-option value="dogs">Dogs</ion-select-option>
+              <ion-select-option :value="'cats'">Cats</ion-select-option>
+              <ion-select-option :value="'dogs'">Dogs</ion-select-option>
             </IonSelectVue>
           </ion-item>
           <ion-item>
